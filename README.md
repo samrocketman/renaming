@@ -42,5 +42,8 @@ For existing repositories, renaming the default branch today causes a set of cha
 - Open pull requests need to be retargeted to the new branch
 - Draft releases need to be retargeted to the new branch
 - Branch protection policies need to be transferred to the new branch
+- GitHub pages settings.
+- CI code tied to specific branches.
+- Redirects for documentation pointing to source code at the master branch.
 
 By the end of the year, we'll make it seamless for existing repositories to rename their default branch. When you rename the branch, we’ll retarget your open PRs and draft releases, move your branch protection policies, and more - all automatically. And, we’re also looking into redirecting users who `git fetch` or `git clone` the old branch name to the new branch name (with a warning and instructions to update their local clone), so it’s easy for your contributors to move.
